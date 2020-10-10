@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	@keyframes walk1 {
+		0%{
+			background-position: 0 0;
+		}
+		100%{
+			background-position: -438px 0;
+		}
+	}
+		.box1{
+			height: 119px;
+			width: 73px;
+			background: url('imgs/hua.jpg')
+			left no-repeat;
+			animation: walk1 2s steps(6) infinite;
+		}
+		@keyframes walk2 {
+		0%{
+			background-position: 0 0;
+		}
+		100%{
+			background-position: 0px -2045px;
+		}
+	}
+		.box2{
+			height: 681px;
+			width: 662px;
+			background: url('imgs/jd.png')
+			left no-repeat;
+			animation: walk2 2s steps(3) infinite;
+		}
+		@keyframes walk3 {
+		0%{
+			background-position: 0 0;
+		}
+		100%{
+			background-position: -800px 0px;
+		}
+	}
+		.box3{
+			height: 100px;
+			width: 100px;
+			background: url('imgs/loading.png')
+			left no-repeat;
+			animation: walk3 2s steps(8) infinite;
+		}
+			@keyframes walk4 {
+		0%{
+			background-position: 0 0;
+		}
+		100%{
+			background-position: -1680px 0px;
+		}
+	}
+		.box4{
+			height: 140px;
+			width: 140px;
+			background: url('imgs/run.png')
+			left no-repeat;
+			animation: walk4 2s steps(12) infinite;
+		}
+		@keyframes walk5 {
+		0%{
+			background-position: 0 0;
+		}
+		100%{
+			background-position: -1372px 0px;
+		}
+	}
+		.box5{
+			height: 156px;
+			width: 137px;
+			background: url('imgs/run2.png')
+			left no-repeat;
+			animation: walk5 1s steps(10) infinite;
+		}
+		@keyframes walk6 {
+		0%{
+			background-position: 0 0;
+		}
+		100%{
+			background-position: -1080px 0px;
+		}
+	}
+		.box6{
+			height: 293px;
+			width: 160px;
+			/* 改变了宽度减掉了竖线框 */
+			background: url('imgs/walk.jpg')
+			left no-repeat;
+			animation: walk6 2s steps(6) infinite;
+		}
+	</style>
+</head>
+<body>
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+	<div class="box4"></div>
+	<div class="box5"></div>
+	<div class="box6"></div>
+</body>
+</html>
